@@ -1,0 +1,13 @@
+.filter__label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.filter__input {
+  border: 2px solid rgb(17, 1, 70);
+  margin-right: 20px;
+  height: 24px;
+  width: 200px;
+}

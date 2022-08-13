@@ -1,0 +1,80 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.input {
+  border: 2px solid rgb(17, 1, 70);
+  height: 24px;
+  width: 200px;
+  margin-right: 20px;
+}
+.gender {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.gender__info {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+.gender__label,
+.age__label {
+  font-size: 20px;
+  font-weight: 500;
+}
+.age__label {
+  margin-bottom: 100px;
+}
+.age__input,
+.gender__input {
+  border: 2px solid rgb(17, 1, 70);
+  margin-right: 10px;
+}
+.btn {
+  position: relative;
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: rgb(175, 172, 194);
+  border: transparent;
+  transform: rotate(-2deg);
+}
+.btn:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(130, 121, 189);
+}
+.btn:after {
+  content: '';
+  position: absolute;
+  border: 3px solid rgb(17, 1, 70);
+  bottom: 5px;
+  left: 5px;
+  width: calc(100% - 5px);
+  height: calc(100% - 5px);
+}
+
+.btn:hover:after {
+  bottom: 1px;
+  left: 1px;
+}
+.btn:disabled {
+  background-color: rgb(162, 162, 162);
+  color: rgb(249, 249, 249);
+}
+
+.btn:disabled:after {
+  border: transparent;
+}
