@@ -28,7 +28,6 @@ const ContactForm = ({ catchSubmitInfo }) => {
     }));
   };
   const handleSubmit = e => {
-    console.log(state);
     e.preventDefault();
     catchSubmitInfo({ ...state });
     clearFields();
